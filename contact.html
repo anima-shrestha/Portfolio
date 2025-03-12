@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9b1f9;
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+        h2 {
+            color: #ff5722;
+            font-size: 2.5em;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: f9b1f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(247, 196, 232, 0.5);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            color:black
+        }
+        input, textarea {
+            width: 80%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #f7aced;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Contact</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <a href="page.html" style="color:#0a0608;">Back to Home</a>
+    </div>
+</body>
+</html>
